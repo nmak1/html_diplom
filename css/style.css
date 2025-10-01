@@ -867,6 +867,7 @@ button {
     padding: 18px;
     -webkit-appearance: none;
     -moz-appearance: none;
+    appearance: none; /* Добавлено стандартное свойство */
     box-sizing: border-box;
     font-family: inherit;
     font-size: 13px;
@@ -917,6 +918,7 @@ button {
     padding: 18px;
     -webkit-appearance: none;
     -moz-appearance: none;
+    appearance: none; /* Добавлено стандартное свойство */
     box-sizing: border-box;
     font-family: inherit;
     font-size: 13px;
@@ -1127,4 +1129,4 @@ select:focus {
         width: 100%;
         margin-right: 0;
     }
-}
+ }
